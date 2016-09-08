@@ -22,3 +22,8 @@ img {
 figure {
   margin: 0;
 }
+
+.film {
+  width: 50%;
+  margin: 40px auto;
+}
