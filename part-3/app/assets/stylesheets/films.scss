@@ -1,0 +1,63 @@
+// Place all the styles related to the Films controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: inherit;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.35;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+}
+
+.film {
+  height: 100%;
+}
+
+.site-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+
+.site-nav > .site-logo {
+  display: block;
+  height: 50px;
+}
+
+.latest {
+  height: 100%;
+  // background-color: transparent;
+  // background-image: image-url('stormtroopers.jpg');
+  // background-size: cover;
+  // background-position: center;
+}
