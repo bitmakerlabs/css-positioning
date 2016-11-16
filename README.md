@@ -26,6 +26,8 @@ The goal is to make your final version look like mine:
 6. Fix the `.yellow` box to the bottom of the window. Make sure it starts at the left side and spans the entire width of the page, and that it stays there when you scroll the page.
 7. Ensure that the blue box remains on top of all of the other boxes (this is where `z-index` comes in!)
 
+**Note** Depending on the width of your browser window, it may not look exactly the same as the image above when you're done. To ensure it matches up, resize your window until they look alike.
+
 
 ## Part 2: Positioning in Practice
 In this part, you'll be creating film cards with actions that should be specifically positioned. This will require you to use the display and float skills you learned, as well as the `position` property from today.
