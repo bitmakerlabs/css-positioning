@@ -29,18 +29,19 @@ figure {
   border: 1px solid #eee;
   overflow: auto;
   padding: 1rem;
-  position: relative
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
 }
 
 .film > figure {
-  float: left;
-  width: 30%;
+  width: 100%;
   position: relative;
 }
 
 .film-details {
-  float: left;
-  width: 70%;
+  width: 100%;
   padding: 0 1rem;
 }
 
